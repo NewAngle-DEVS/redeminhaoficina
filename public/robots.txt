@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://newangle-devs.github.io/redeminhaoficina/sitemap.xml
