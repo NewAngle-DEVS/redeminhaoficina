@@ -3,7 +3,7 @@ const suppliedUrl = process.env.SITE_URL || process.env.CF_PAGES_URL || 'https:/
 const url = new URL(suppliedUrl);
 if (url.protocol !== 'https:' || url.username || url.password || url.search || url.hash) throw new Error('SITE_URL must be a public HTTPS URL without credentials, query or fragment.');
 const home = url.href.replace(/\/?$/, '/');
-const image = `${home}images/motor-study.png`;
+const image = `${home}images/logo-compartilhamento.png`;
 let html = await readFile(new URL('../index.html', import.meta.url), 'utf8');
 html = html.replace(/<link rel="canonical"[^>]*>/, `<link rel="canonical" href="${home}" />`);
 html = html.replace(/<meta property="og:url"[^>]*>/, `<meta property="og:url" content="${home}" />`);
