@@ -14,6 +14,11 @@ html = html.replace(/(<script type="application\/ld\+json">)([\s\S]*?)(<\/script
   return `${open}\n${JSON.stringify(data, null, 2)}\n${close}`;
 });
 await writeFile(new URL('../index.html', import.meta.url), html);
+const notFoundPath = new URL('../public/404.html', import.meta.url);
+let notFound = await readFile(notFoundPath, 'utf8');
+notFound = notFound.replace(/(<a class="(?:brand|button)" href=")[^"]*(")/g, `$1${home}$2`);
+notFound = notFound.replace(/((?:href|src)=")[^"]*\/favicon\.svg(")/g, `$1${home}favicon.svg$2`);
+await writeFile(notFoundPath, notFound);
 await writeFile(new URL('../public/robots.txt', import.meta.url), `User-agent: *\nAllow: /\n\nSitemap: ${home}sitemap.xml\n`);
 await writeFile(new URL('../public/sitemap.xml', import.meta.url), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>${home}</loc></url></urlset>\n`);
 console.log(`SEO prepared for ${home}`);
