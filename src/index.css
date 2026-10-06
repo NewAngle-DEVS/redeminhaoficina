@@ -630,3 +630,25 @@ section[tabindex="-1"]:focus, main:focus { outline: none; }
   .workshop-mascot { width: 100%; max-width: 250px; justify-self: center; }
   .workshop-mascot img { max-height: 430px; }
 }
+/* Motor sobre o azul institucional, com contraste em todas as etapas. */
+.hero { background: var(--ink); color: var(--white); }
+.hero .hero-topline, .hero .hero-eyebrow { color: #c8c9dc; }
+.hero .hero-description, .hero .hero-layer--story > p:not(.eyebrow), .hero .hero-layer--outro > p:not(.eyebrow) { color: #d1d3e5; }
+.hero .hero-title em, .hero .hero-layer--story h2 em, .hero .hero-layer--outro h2 em { color: var(--gold); }
+.hero .text-link { color: #e4e5ef; }
+.hero .text-link:hover { color: var(--gold); }
+.hero .button--gold:hover { background: white; color: var(--ink); }
+.hero :focus-visible { outline-color: var(--gold); }
+.hero-blueprint span, .hero-blueprint span:nth-child(2), .hero-blueprint span:nth-child(3) { border-color: #ffffff0e; }
+.hero-blueprint::before, .hero-blueprint::after { background: #ffffff0b; }
+.engine-watermark { color: #ffffff04; }
+.engine-annotation, .engine-spec, .hero-edition { color: #c8c9dc; }
+.hero-bottom { border-color: #ffffff24; }
+.scroll-arrow { border-color: #ffffff45; }
+.hero-chapters > span { color: #b6b8ce; }
+.hero-chapters .is-active { color: white; }
+.hero-chapters .is-active b { color: var(--gold); }
+.hero-progress { background: #ffffff16; }
+.motor-halo { background: #00000045; }
+.hero-stage { background: radial-gradient(ellipse at 74% 48%, #272b61 0, #191b4a 65%); }
+.motor-visual:not(.is-ready) .motor-poster { width: 80%; height: 80%; left: 10%; top: 10%; border-radius: 24px; }
