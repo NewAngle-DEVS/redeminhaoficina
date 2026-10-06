@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import Header from './components/Header';
 import PageMotion from './components/PageMotion';
 import Hero from './components/Hero';
+import History from './components/History';
 import Services from './components/Services';
 import Workshop from './components/Workshop';
 import Process from './components/Process';
@@ -38,6 +39,7 @@ export default function App() {
       <Header /><PageMotion />
       <main id="conteudo" tabIndex={-1}>
         <Hero />
+        <History />
         <Services />
         <Workshop />
         <Process />

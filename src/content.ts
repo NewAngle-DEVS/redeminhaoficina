@@ -17,6 +17,7 @@ export function whatsappLink(message = 'Ol\u00e1, Minha Oficina! Gostaria de con
 }
 
 export const navigation = [
+  { label: 'Nossa história', href: '#historia' },
   { label: 'Cuidados', href: '#cuidados' },
   { label: 'A oficina', href: '#oficina' },
   { label: 'Contato', href: '#contato' },
@@ -57,7 +58,7 @@ export const questions = [
   },
   {
     question: 'Como consultar hor\u00e1rios e or\u00e7amento?',
-    answer: 'Consulte os hor\u00e1rios, a disponibilidade e as informa\u00e7\u00f5es sobre o servi\u00e7o diretamente com a equipe pelo WhatsApp. O site n\u00e3o realiza agendamentos autom\u00e1ticos nem informa pre\u00e7os sem avalia\u00e7\u00e3o.',
+    answer: 'Atendemos de segunda a quinta, das 7h30 às 17h30, e sexta, das 7h30 às 16h30. Consulte a disponibilidade e o orçamento pelo WhatsApp. O site n\u00e3o realiza agendamentos autom\u00e1ticos nem informa pre\u00e7os sem avalia\u00e7\u00e3o.',
   },
 ];
 
