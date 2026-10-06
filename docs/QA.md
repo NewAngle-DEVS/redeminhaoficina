@@ -8,3 +8,5 @@
 - Horários visíveis e dados estruturados atualizados.
 - Prévia social com nova URL de imagem para atualização da marca.
 - E-mail depende da confirmação do cliente.
+
+- Motor 3D restaurado: abertura das peças confirmada no navegador, em desktop e celular de 390 px, sem rolagem horizontal. Mascote reposicionado na seção A oficina.

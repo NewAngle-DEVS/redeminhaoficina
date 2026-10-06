@@ -24,7 +24,7 @@ function buildMotor() {
   const machined = new THREE.MeshStandardMaterial({ color: 0xe0e4e7, metalness: .95, roughness: .2 });
   const graphite = new THREE.MeshStandardMaterial({ color: 0x333b49, metalness: .8, roughness: .33 });
   const black = new THREE.MeshStandardMaterial({ color: 0x161e28, metalness: .35, roughness: .5 });
-  const gold = new THREE.MeshPhysicalMaterial({ color: 0xdca94a, metalness: .78, roughness: .26, clearcoat: .35 });
+  const gold = new THREE.MeshPhysicalMaterial({ color: 0xfa9603, metalness: .78, roughness: .26, clearcoat: .35 });
   const copper = new THREE.MeshStandardMaterial({ color: 0xa37745, metalness: .85, roughness: .3 });
   const box = (w: number, h: number, d: number, radius = .04) => new RoundedBoxGeometry(w, h, d, 2, radius);
   function mesh(parent: THREE.Object3D, geometry: THREE.BufferGeometry, material: THREE.Material, x = 0, y = 0, z = 0) {

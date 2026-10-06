@@ -6,7 +6,7 @@
 - História resumida a partir das páginas 19 e 20 e do período de operação apresentado no relatório (2023–2024).
 - Mascote: imagem oficial enviada pelo cliente.
 - Horários: segunda a quinta, 7h30–17h30; sexta, 7h30–16h30, conforme arte fornecida.
-- A introdução com motor e rolagem foi substituída por uma apresentação direta, conforme pedido do cliente.
+- Motor 3D com desmontagem por rolagem restaurado após esclarecimento do cliente. Mascote transferido para a seção A oficina.
 - Áudio complementar: pede e-mail da oficina e futura inclusão de fotos/vídeos próprios. E-mail aguardando confirmação; mídia real poderá substituir a fotografia ilustrativa existente.
 
 O relatório financeiro e o áudio não fazem parte dos arquivos públicos do site.

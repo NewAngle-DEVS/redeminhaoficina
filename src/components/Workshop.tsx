@@ -19,6 +19,10 @@ export default function Workshop() {
           <p>{'Seu carro recebe aten\u00e7\u00e3o. Voc\u00ea tamb\u00e9m. Um espa\u00e7o para esperar com conforto, aqui em Limeira.'}</p>
           <a className="text-link" href={company.instagram} target="_blank" rel="noopener noreferrer">{'Veja a oficina no Instagram'}<ArrowUpRight size={19} aria-hidden="true" /></a>
         </div>
+        <figure className="workshop-mascot">
+          <img src={`${import.meta.env.BASE_URL}images/mascote-oficial.jpeg`} alt="Mascote oficial da Minha Oficina, com uniforme azul e laranja." width="508" height="1280" loading="lazy" decoding="async" />
+          <figcaption>É bom ter com quem contar.</figcaption>
+        </figure>
         <ol className="amenities">
           {amenities.map(amenity => <li key={amenity.number}><span className="amenity-number">{amenity.number}</span><div><h3>{amenity.title}</h3><p>{amenity.description}</p></div></li>)}
         </ol>
