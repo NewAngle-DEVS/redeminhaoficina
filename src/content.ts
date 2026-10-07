@@ -2,6 +2,7 @@ export const company = {
   name: 'Minha Oficina',
   city: 'Limeira, SP',
   phone: '(19) 3704-1213',
+  email: 'minhaoficinalimeira@outlook.com',
   telephone: '+551937041213',
   whatsapp: '551937041213',
   instagram: 'https://www.instagram.com/rede.minhaoficina/',

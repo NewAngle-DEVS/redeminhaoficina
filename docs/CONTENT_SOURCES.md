@@ -1,4 +1,4 @@
-# Conteúdo atualizado em 06/10/2026
+# Conteúdo atualizado em 07/10/2026
 
 - Símbolo da marca extraído diretamente do PDF fornecido pelo cliente; proporção preservada no cabeçalho, rodapé, marca d'água, favicon e compartilhamento.
 - Paleta do material institucional: azul #191b4a e laranja #fa9603.
@@ -7,6 +7,7 @@
 - Mascote: imagem oficial enviada pelo cliente.
 - Horários: segunda a quinta, 7h30–17h30; sexta, 7h30–16h30, conforme arte fornecida.
 - Motor 3D com desmontagem por rolagem restaurado após esclarecimento do cliente. Mascote transferido para a seção A oficina.
-- Áudio complementar: pede e-mail da oficina e futura inclusão de fotos/vídeos próprios. E-mail aguardando confirmação; mídia real poderá substituir a fotografia ilustrativa existente.
+- Áudio complementar: sugere futura inclusão de fotos/vídeos próprios. A mídia real poderá substituir a fotografia ilustrativa existente.
+- Informação fornecida pelo cliente em 07/10/2026: parceria com a Localiza há três anos, com manutenção geral e revisões; e-mail minhaoficinalimeira@outlook.com.
 
 O relatório financeiro e o áudio não fazem parte dos arquivos públicos do site.

@@ -14,6 +14,7 @@ export function Contact() {
         </div>
         <div className="contact-details">
           <div className="contact-phone"><p className="contact-label">{'AGENDAMENTOS E D\u00daVIDAS'}</p><a href={`tel:${company.telephone}`}>19 3704-1213<ArrowUpRight size={29} strokeWidth={1.4} aria-hidden="true" /></a><p>{'WhatsApp e telefone'}</p></div>
+          <div className="contact-email"><p className="contact-label">E-MAIL DA OFICINA</p><a href={`mailto:${company.email}`}>{company.email}<ArrowUpRight size={18} strokeWidth={1.5} aria-hidden="true" /></a></div>
           <div className="contact-address"><p className="contact-label"><MapPin size={15} aria-hidden="true" />{'ENCONTRE A MINHA OFICINA'}</p><address>{company.street}<br />{company.district} &middot; {company.city}<br />{company.postcode}</address><a className="text-link" href={company.maps} target="_blank" rel="noopener noreferrer">{'Abrir rota no Google Maps'}<ArrowUpRight size={18} aria-hidden="true" /></a></div>
           <div className="contact-hours"><h3>Horário de atendimento</h3><p><span>Segunda a quinta-feira</span><strong>7h30 às 17h30</strong></p><p><span>Sexta-feira</span><strong>7h30 às 16h30</strong></p><small>Combine sua visita pelo WhatsApp.</small></div>
         </div>
