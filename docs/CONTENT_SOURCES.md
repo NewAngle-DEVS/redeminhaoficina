@@ -9,5 +9,6 @@
 - Motor 3D com desmontagem por rolagem restaurado após esclarecimento do cliente. Mascote transferido para a seção A oficina.
 - Áudio complementar: sugere futura inclusão de fotos/vídeos próprios. A mídia real poderá substituir a fotografia ilustrativa existente.
 - Informação fornecida pelo cliente em 07/10/2026: parceria com a Localiza há três anos, com manutenção geral e revisões; e-mail minhaoficinalimeira@outlook.com.
+- Faixa da parceria: logotipo da Localiza enviado pelo cliente em 07/10/2026; verde de fundo #0c6531 amostrado da própria imagem.
 
 O relatório financeiro e o áudio não fazem parte dos arquivos públicos do site.
