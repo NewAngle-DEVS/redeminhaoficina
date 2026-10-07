@@ -10,6 +10,7 @@ import { Contact, Questions } from './components/Contact';
 import Footer from './components/Footer';
 import Brand from './components/Brand';
 import LinkButton from './components/LinkButton';
+import FloatingWhatsApp from './components/FloatingWhatsApp';
 import { whatsappLink } from './content';
 
 function NotFound() {
@@ -47,6 +48,7 @@ export default function App() {
         <Questions />
       </main>
       <Footer />
+      <FloatingWhatsApp />
     </>
   );
 }

@@ -652,15 +652,17 @@ section[tabindex="-1"]:focus, main:focus { outline: none; }
 .motor-halo { background: #00000045; }
 .hero-stage { background: radial-gradient(ellipse at 74% 48%, #272b61 0, #191b4a 65%); }
 .motor-visual:not(.is-ready) .motor-poster { width: 80%; height: 80%; left: 10%; top: 10%; border-radius: 24px; }
-.partner-card { display: grid; grid-template-columns: 205px minmax(0,1fr) auto; align-items: center; gap: 22px; min-height: 116px; margin: 0 0 32px; padding: 7px 28px; background: #0c6531; color: #fff; border-radius: 10px; }
+.partner-card { display: grid; grid-template-columns: 205px minmax(0,1fr); align-items: center; gap: 22px; min-height: 116px; margin: 0 0 32px; padding: 7px 28px; background: #0c6531; color: #fff; border-radius: 10px; }
 .partner-card-logo { display: block; width: 205px; height: auto; }
 .partner-card-copy { min-width: 0; }
 .partner-card-kicker { margin: 0 0 5px; color: #d9f987; font-size: 10px; font-weight: 700; letter-spacing: .16em; }
 .partner-card h3 { margin: 0 0 4px; font-size: clamp(19px,2.1vw,27px); line-height: 1.15; font-weight: 600; letter-spacing: -.025em; }
 .partner-card-copy > p:last-child { margin: 0; font-size: 13px; line-height: 1.4; color: #f0f7f1; }
-.partner-card-link { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 40px; padding: 10px 13px; border-radius: 4px; background: #fff; color: #0c6531; font-size: 12px; font-weight: 700; white-space: nowrap; transition: background-color .2s ease, transform .2s ease; }
-.partner-card-link:hover { background: #e8f5da; transform: translateY(-2px); }
-.partner-card-link:active { transform: translateY(0); }
+.floating-whatsapp { position: fixed; right: 26px; bottom: calc(26px + env(safe-area-inset-bottom, 0px)); z-index: 90; display: grid; place-items: center; width: 62px; height: 62px; border-radius: 50%; background: #25d366; color: #fff; box-shadow: 0 8px 28px #0c653155, 0 0 0 3px #fff; transition: transform .25s ease, background-color .25s ease; }
+.floating-whatsapp svg { width: 34px; height: 34px; }
+.floating-whatsapp:hover { background: #1ebe59; transform: translateY(-4px); }
+.floating-whatsapp:active { transform: translateY(0) scale(.96); }
+.floating-whatsapp:focus-visible { outline: 3px solid var(--ink); outline-offset: 5px; }
 .contact-email { margin-top: 27px; padding-top: 24px; border-top: 1px solid #191b4a38; }
 .contact-email > a { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; margin-top: 5px; font-size: clamp(14px,1.5vw,20px); font-weight: 600; overflow-wrap: anywhere; }
 .contact-email > a:hover { text-decoration: underline; text-underline-offset: 4px; }
@@ -670,13 +672,12 @@ section[tabindex="-1"]:focus, main:focus { outline: none; }
 .footer-email:hover { color: var(--gold); }
 @media(max-width:700px) {
   .partner-card { grid-template-columns: minmax(105px,37%) minmax(0,1fr); gap: 12px; min-height: 110px; padding: 12px 14px; }
-  .partner-card-logo { grid-row: 1 / span 2; width: 100%; }
+  .partner-card-logo { width: 100%; }
   .partner-card-kicker { font-size: 9px; letter-spacing: .09em; }
   .partner-card h3 { font-size: clamp(16px,4.3vw,20px); }
   .partner-card-copy > p:last-child { font-size: 12px; }
-  .partner-card-link { grid-column: 2; justify-self: start; min-height: 34px; margin-top: -4px; padding: 8px 10px; font-size: 11px; white-space: normal; }
+  .floating-whatsapp { right: 18px; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); width: 56px; height: 56px; }
+  .floating-whatsapp svg { width: 31px; height: 31px; }
   .contact-email > a { font-size: 14px; }
 }
-@media(max-width:360px) {
-  .partner-card-link { gap: 3px; padding-inline: 6px; font-size: 10px; white-space: nowrap; }
-}
+@media(prefers-reduced-motion:reduce) { .floating-whatsapp { transition: none; } }
