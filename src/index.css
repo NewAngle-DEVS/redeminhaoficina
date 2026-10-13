@@ -572,8 +572,14 @@ section[tabindex="-1"]:focus, main:focus { outline: none; }
 .history { padding-block: 110px; }
 .history-heading h2 { margin-top: 25px; font-size: clamp(32px,4.1vw,65px); line-height: 1.15; letter-spacing: -.055em; font-weight: 500; }
 .history-heading h2 em { font-family: Georgia,serif; font-weight: 400; }
-.history-body { display: grid; grid-template-columns: 1fr 1fr; gap: 55px; margin-top: 38px; max-width: 1050px; }
+.history-lead { max-width: 880px; margin-top: 34px; font-size: clamp(20px,2.3vw,30px); line-height: 1.5; letter-spacing: -.025em; }
+.history-body { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(36px,5vw,90px); margin-top: 38px; max-width: 1200px; }
+.history-story-column { display: grid; align-content: start; gap: 22px; }
 .history-body p { color: var(--muted); font-size: 15px; line-height: 1.85; }
+.history-invite { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: clamp(32px,5vw,90px); max-width: 1200px; margin-top: 42px; padding: 30px 0 0; border-top: 1px solid var(--line); }
+.history-invite p { max-width: 450px; font-size: 15px; line-height: 1.7; }
+.history-invite strong { display: block; margin-top: 12px; font-size: clamp(20px,2vw,27px); font-weight: 600; letter-spacing: -.035em; }
+.history-invite .button { min-height: 47px; margin-top: 17px; padding: 12px 16px; gap: 20px; }
 .history-timeline { display: grid; grid-template-columns: repeat(3,1fr); gap: 34px; margin: 55px 0 65px; }
 .history-timeline li { border-top: 2px solid var(--gold); padding-top: 20px; }
 .history-timeline span { font-size: 11px; font-weight: 700; letter-spacing: 1px; }
@@ -604,8 +610,13 @@ section[tabindex="-1"]:focus, main:focus { outline: none; }
   .welcome-strip { flex-wrap: wrap; gap: 12px 16px; font-size: 8px; padding: 19px 22px; letter-spacing: .7px; }
   .welcome-strip i:last-of-type { display: none; }
   .history { padding-block: 65px; }
-  .history-body { grid-template-columns: 1fr; gap: 18px; margin-top: 25px; }
+  .history-lead { margin-top: 25px; }
+  .history-body { grid-template-columns: 1fr; gap: 22px; margin-top: 25px; }
+  .history-story-column { gap: 18px; }
   .history-body p { font-size: 14px; }
+  .history-invite { grid-template-columns: 1fr; gap: 22px; margin-top: 30px; padding-top: 25px; }
+  .history-invite p { font-size: 14px; }
+  .history-invite .button { width: 100%; max-width: 290px; }
   .history-timeline { grid-template-columns: 1fr; gap: 26px; margin: 35px 0 40px; }
   .history-timeline li { border-top: none; border-left: 2px solid var(--gold); padding: 0 0 0 20px; }
   .history-timeline h3 { margin-top: 8px; }
